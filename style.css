@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: rgb(45, 45, 45);
+    width: 226px;
+    height: 100vh;
+    font-family: 'PT Serif', serif;
+}
+.sidebar nav{
+    padding: 19px;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 13px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: rgb(192, 136, 244);
+    width: 85vw;
+}
+.container{
+    display: flex;
+}
+.infoContainer{
+    /*background-color: rgba(109, 241, 89, 0.887);*/
+    height: 68vh;
+    width: 77vw;
+    margin: 88px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devpic img{
+    height: 68vh;
+}
+
+.devinfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'PT Serif', serif;
+    font-family: 'Source Code Pro', monospace;
+}
+.hello{
+    font-size: 45px;
+}
+.name{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'PT Serif', serif;
+}
+.about{
+    font-size: 25px;
+}
+.moreabout{
+    margin-top: 20px;
+    font-size: 32px;
+    font-family: 'PT Serif', serif;
+}
+.buttons{
+    margin-top: 25px;
+}
+.buttons button{
+    padding: 16px;
+    border-radius: 24px;
+    border-color: black;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 5px 2px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 119, 190);
+}
+.contactform{
+    font-family: 'PT Serif', serif;
+    padding-top: 25px;
+    padding: 0 15px;
+}
+.contactform h1{
+    font-family: 'Noto Serif', serif;
+    padding: 10px 0;
+}
+.contactform form div{
+    padding: 6px 0;
+    flex-direction: column;
+}
+.contactform form div input{
+    display: flex;
+    padding: 4px;
+    width: 371px;
+    border-radius: 12px;
+}
+#emailHelp{
+    font-size: 20px;
+    color: blue;
+    margin: -6px 2px;
+}
+#form-check{
+    flex-direction: row;
+}
+#form-check input{
+    width: 15px;
+}
+.btn.btn-primary{
+    padding: 5px;
+    border-radius: 10px;
+    border-color: black;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 18px;
+    margin: 5px -1px;
+    cursor: pointer;
+}
+.btn.btn-primary:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(6, 119, 190);
+}
+.blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+
+}
+.blogcontainer h1{
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogitem p{
+    font-family: 'PT Serif', serif;
+}
+
+.intro h2{
+    font-size: 35px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+}
+.intro p{
+    font-family: 'PT Serif', serif;
+    margin: 25px;
+}
+.skillcontainer{
+    padding: 12px;
+}
+.skillitem{
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    font-family:'Fira Sans', sans-serif;
+    padding: 12px;
+    margin: 1px;
+    
+}
+.skill{
+    width: 250px;
+    height: 5px;
+    background-color: rgb(0, 17, 225);
+    border: 2px solid black;
+    
+}
+.hundred{
+    width: 250px;
+    background-color: rgb(0, 17, 255);
+}
+.fifty{
+    width: 125px;
+    background-color:  rgb(255, 16, 179);
+}
+.seventy{
+    width: 200px;
+    background-color: chartreuse ;
+}
+.projectcontainer{
+    margin: 2px;
+    display: flex;
+}
+.projectbox{
+    border: 2px solid black;
+    padding: 6px;
+    margin: -1px 5px;
+    border-radius: 20px;
+    background-color: rgb(243, 172, 172);
+    width: 443px;
+}
+h3{
+    font-size: 20px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 2px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
